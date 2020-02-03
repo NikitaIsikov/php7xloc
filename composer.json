@@ -1,0 +1,21 @@
+{
+    "name": "nikitaisikov/php7loc",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita Isikov",
+            "email": "nikitaisikov90@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "classes\\": "classes"
+        }
+    }
+}
