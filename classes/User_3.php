@@ -2,7 +2,7 @@
 
 namespace classes;
 
-class User_2
+class User_3
 {
     public string $name;
     public int $age;
@@ -30,7 +30,7 @@ class User_2
             echo "subAge func =" . $this->age . '<br>';
         }
     }
-    public function validate($age)
+    private function validate($age)
     {
         return $isvalid = ($age >= 18 && $age < 100) ? true : false;
     }
