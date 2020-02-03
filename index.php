@@ -7,3 +7,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 $employee = new classes\Employee();
 $employee->name = 'Petya';
 echo $employee->name;
+
+$james = new classes\Human();
+$james->name = 'James';
+$james->sayHowdy();
