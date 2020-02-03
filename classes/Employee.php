@@ -1,5 +1,5 @@
 <?php
-//src: classes/Employee.php
+
 namespace classes;
 
 class Employee
