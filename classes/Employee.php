@@ -5,12 +5,12 @@ namespace classes;
 class Employee
 {
     public string $name;
-    public int $age;
     public int $salary;
 
-    public function newEmp($name, $age, $salary) {
-        $this->name = $name;
-        $this->age = $age;
-        $this->salary = $salary;
+    public function doubleSalary()
+    {
+        $this->salary = $this->salary * 2;
+        echo $this->name . "'s salary successfully doubled!<br>";
+        echo "now " . $this->salary;
     }
 }
